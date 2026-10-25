@@ -1,0 +1,5 @@
+# Inutile dans l'image Docker (le Dockerfile ne copie que le site)
+.git
+*.zip
+*.md
+render.yaml
