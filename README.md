@@ -4,7 +4,8 @@ Site **statique** : un seul fichier `index.html` (HTML/CSS/JS intégrés) + les
 images à la racine du dépôt. Aucun build, aucun serveur requis.
 
 - Rapport d'audit et corrections : [`RAPPORT_CORRECTIONS.md`](./RAPPORT_CORRECTIONS.md)
-- Archive d'origine (régénérée avec la version corrigée) : `les-gourmands-paris.zip`
+- Archive complète du projet (site corrigé + configuration de déploiement
+  Render/Docker + documentation) : `les-gourmands-paris.zip`
 
 ## Tester en local
 
