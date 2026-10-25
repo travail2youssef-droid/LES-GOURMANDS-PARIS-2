@@ -1,0 +1,9 @@
+# Configuration Render — site statique (aucun build, fichiers servis tels quels)
+# Documentation : https://render.com/docs/blueprint-spec
+services:
+  - type: web
+    name: les-gourmands-paris
+    env: static
+    branch: main
+    buildCommand: ""
+    staticPublishPath: .
