@@ -42,6 +42,7 @@ Le fichier [`render.yaml`](./render.yaml) à la racine configure tout :
 
 | Symptôme                                      | Cause                                           | Solution                                     |
 |-----------------------------------------------|-------------------------------------------------|----------------------------------------------|
+| `failed to read dockerfile: open Dockerfile: no such file` | Service **Web Service** en environnement **Docker**, sans `Dockerfile` dans le dépôt | Le `Dockerfile` ajouté à la racine corrige cela (relancer le déploiement), ou recréer en **Static Site** |
 | Déploiement en échec / page 404               | Branche `main` sans `index.html` (que le ZIP)   | Merger la PR, ou déployer la branche de la PR |
 | « Build failed », cherche une commande start  | Service créé en **Web Service** au lieu de Static Site | Supprimer le service, recréer en **Static Site** |
 | Échec du build (`npm run build` introuvable…) | Build Command pré-remplie à tort                | Vider le champ **Build Command**             |
