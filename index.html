@@ -39,6 +39,31 @@
     .logo-full{display:block;width:174px;height:auto;max-height:none;object-fit:contain}.logo-invert{width:154px;max-height:none}.brand{gap:0}.site-header{border-bottom-color:rgba(17,17,15,.14)}.nav{height:96px}.admin-header{height:92px}.topbar{letter-spacing:.16em;text-transform:uppercase;font-size:10px}.hero{min-height:700px}.hero:before{background:linear-gradient(90deg,rgba(7,7,7,.83) 0%,rgba(7,7,7,.58) 45%,rgba(7,7,7,.08) 100%),url('restaurant-hero.jpg') center 55%/cover}.hero h1{font-weight:500;letter-spacing:-.055em}.hero .eyebrow{color:#e1c995}.hero-kicker{border-color:rgba(224,201,149,.55);background:rgba(7,7,7,.56);text-align:center;letter-spacing:.16em}.hero-kicker strong{font-size:21px}.story-image img{border-radius:2px}.story-image:before{border-radius:2px}.gallery-card{border-radius:2px}.dish-card{border-radius:2px}.form-card{border-radius:2px}.contact-card{border-radius:2px}.btn{border-radius:2px;text-transform:uppercase;letter-spacing:.07em;font-size:11px}.btn-outline{border-color:rgba(255,255,255,.52)}.menu-tab{border-radius:2px;text-transform:uppercase;letter-spacing:.09em;font-size:10px}.menu-tab.active,.menu-tab:hover{background:#11110f;border-color:#11110f}.menu-section{background:#f2f0eb}.quote-band{background:#0c0c0b}.quote-band:before,.quote-band:after{content:'✦';color:rgba(220,199,152,.10)}.quote-band span{color:#d7c295}.contact-card{background:#10100f}.footer{background:#080808}.brand-mark{display:none}@media(max-width:700px){.nav{height:78px}.navlinks{top:78px}.logo-full{width:138px}.admin-header{height:80px}.logo-invert{width:145px}}
     /* corrections : ancres sous l'en-tete fixe, focus clavier, toast mobile, cadre photo */
     section[id]{scroll-margin-top:112px}.story-image{isolation:isolate}:focus-visible{outline:2px solid var(--orange);outline-offset:2px}.toast{max-width:calc(100% - 32px);white-space:normal;text-align:center}.cfg-label{font-size:11px;font-weight:700;color:#4a594f;display:block}.check-row{display:flex;flex-wrap:wrap;gap:7px 12px;font-size:12px;color:#4a594f;margin:4px 0 10px}.check-row label{display:inline-flex;gap:5px;align-items:center;cursor:pointer}.check-line{display:flex;gap:8px;align-items:flex-start;font-size:12px;color:#4a594f;margin:10px 0;cursor:pointer}.config-actions{display:flex;gap:8px;flex-wrap:wrap;margin-top:12px}.closed-list{display:flex;flex-wrap:wrap;gap:7px;margin-top:10px}.closed-chip{display:inline-flex;align-items:center;gap:7px;background:#f8eae4;color:#a65839;border-radius:99px;padding:5px 10px;font-size:11px;font-weight:700}.closed-chip button{border:0;background:transparent;color:inherit;font-size:14px;line-height:1;padding:0}.cal-nav{display:flex;align-items:center;justify-content:space-between;margin-bottom:6px}.cal-nav h2{margin:0;text-transform:capitalize}.cal-arrow{width:34px;height:34px;border-radius:50%;border:1px solid #e3e1d8;background:#fff;color:var(--green);font-size:20px;line-height:1}.cal-grid{display:grid;grid-template-columns:repeat(7,1fr);gap:5px}.cal-week{font-size:10px;text-transform:uppercase;letter-spacing:.08em;color:#8a928b;text-align:center;margin-bottom:5px;font-weight:700}.cal-day{min-height:58px;border:1px solid #e8ece7;border-radius:5px;background:#fff;padding:6px;text-align:left;font-size:12px;color:var(--green);display:flex;flex-direction:column;gap:2px;cursor:pointer}.cal-day small{font-size:9px;color:#778178;line-height:1.25}.cal-day.out{opacity:.35}.cal-day.past{background:#f4f4f1;color:#9aa09a}.cal-day.closed{background:#f8eae4;border-color:#eccfc2}.cal-day.full{background:#fbf3e2}.cal-day.today{border-color:var(--gold);box-shadow:inset 0 0 0 1px var(--gold)}.cal-day.selected{outline:2px solid var(--green);outline-offset:-2px}.cal-legend{display:flex;flex-wrap:wrap;gap:12px;font-size:10px;color:#778178;margin-top:11px}.cal-legend .dot{display:inline-block;width:8px;height:8px;border-radius:50%;margin-right:4px;background:#d8d8d0}.cal-legend .dot.ok{background:#3c764c}.cal-legend .dot.full{background:#d9a441}.cal-legend .dot.closed{background:#c96f4a}@media(max-width:700px){.cal-day{min-height:48px;padding:4px;font-size:11px}.cal-day small{font-size:8px}}@media(max-width:700px){section[id]{scroll-margin-top:88px}}
+
+    /* Une table plus chaleureuse : courbes douces, matières et espaces respirants. */
+    :root{--cream:#f5efe5;--paper:#fffdf8;--gold:#bb9a6b;--orange:#8d623a;--shadow:0 18px 50px rgba(54,39,25,.09)}
+    .site-header{background:rgba(255,253,248,.94)}
+    .btn,.menu-tab{border-radius:999px}
+    .btn{padding:15px 24px;letter-spacing:.06em}
+    .menu-tab{padding:10px 18px;transition:background .2s,color .2s,border-color .2s}
+    .hero{border-radius:0 0 10% 10% / 0 0 5% 5%}
+    .hero:after{right:-100px;top:-130px;width:490px;height:490px;border-radius:49% 51% 58% 42% / 46% 48% 52% 54%}
+    .hero-kicker{border-radius:80px 80px 24px 24px;padding:22px 28px}
+    .story-image img{border-radius:48% 48% 30px 30px / 40% 40% 30px 30px}
+    .story-image:before{border-radius:48% 48% 30px 30px / 40% 40% 30px 30px}
+    .story-image .image-caption{border-radius:8px 32px 32px 8px}
+    .menu-section{background:radial-gradient(ellipse at 8% 12%,#fffaf1 0,transparent 34%),#f5efe5;border-radius:70px 70px 0 0}
+    .dish-card{border-radius:24px 24px 24px 8px;border-color:#eee4d6;padding:23px 24px;background:rgba(255,253,248,.9);box-shadow:0 5px 24px rgba(75,52,27,.035)}
+    .dish-card:nth-child(even){border-radius:24px 24px 8px 24px}
+    .dish-card:hover{box-shadow:0 14px 32px rgba(75,52,27,.1)}
+    .dish-number{color:#a98455}
+    .gallery-card{border-radius:26px}.gallery-card:first-child{border-radius:180px 180px 26px 26px}
+    .form-card{border-radius:38px 38px 38px 12px}.field input,.field select,.field textarea{border-radius:12px}
+    .booking-section{border-radius:70px 70px 0 0;background:#f4f0e7}
+    .contact-card{border-radius:32px}
+    @media(max-width:700px){.hero{border-radius:0 0 8% 8% / 0 0 3% 3%}.hero-kicker{border-radius:50px 50px 18px 18px}.menu-section,.booking-section{border-radius:38px 38px 0 0}.dish-card,.dish-card:nth-child(even){border-radius:22px}.gallery-card:first-child{border-radius:90px 90px 22px 22px}.gallery-card{border-radius:22px}.form-card{border-radius:28px}}
+    @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.dish-card,.gallery-card img,.btn{transition:none}}
+
   </style>
 </head>
 <body>
@@ -133,9 +158,9 @@
       {id:'enfant-burger-poulet',category:'enfants',name:'Burger mythique au poulet',price:15,desc:''},
       {id:'enfant-steak-hache',category:'enfants',name:'Steak haché façon bouchère',price:15,desc:''},
       {id:'enfant-poulet-pane',category:'enfants',name:'Filet de poulet pané maison',price:15,desc:''},
-      {id:'riz-lait',category:'desserts',name:'Riz au lait des îles',price:17,desc:'Lait de coco, vanille bourbon, marmelade de mangue et noisettes caramélisées.'},
-      {id:'brioche',category:'desserts',name:'La Brioche Gourmande',price:15,desc:'Brioche perdue, caramel maison, chocolat signature et glace vanille.'},
-      {id:'tarte',category:'desserts',name:'Tarte Tatin',price:17,desc:'Pommes caramélisées sur pâte feuilletée, crème chantilly d’Isigny.'},
+      {id:'riz-lait',category:'desserts',name:'Riz au lait des îles',price:17,desc:''},
+      {id:'brioche',category:'desserts',name:'La Brioche Gourmande',price:15,desc:''},
+      {id:'tarte',category:'desserts',name:'Tarte Tatin',price:17,desc:''},
       {id:'sauce-poivre-vert',category:'sauces',name:'Poivre vert de Madagascar',price:3,desc:''},
       {id:'sauce-normande',category:'sauces',name:'Normande aux champignons',price:3,desc:''},
       {id:'sauce-roquefort',category:'sauces',name:'Roquefort Maison Papillon',price:3,desc:''},
