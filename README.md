@@ -62,7 +62,7 @@ En bas de page du site → **Espace restaurant** → onglet
   (« fenêtre glissante »). Le bouton **Enregistrer & générer** complète
   les créneaux manquants sans doublons et sans toucher aux réservations.
   Par défaut : ouvert 7 j/7, tous les services, tables de 2/4/4/6/10,
-  horizon 30 jours glissant.
+  horizon 30 jours, sans génération automatique. Le planning est vide au départ ; utilisez le bouton de génération pour créer des disponibilités.
 - **Jours de fermeture** : fermer une date précise retire ses tables
   libres et bloque les réservations ce jour-là (les réservations déjà
   confirmées restent affichées à honorer).
@@ -75,3 +75,5 @@ Rappel : démonstration locale — configuration et planning sont stockés
 dans le navigateur (`localStorage`), à brancher sur un serveur pour un
 usage réel multi-postes.
 
+
+Pour nettoyer les anciennes données de démonstration sur un navigateur déjà utilisé, ouvrez **Espace restaurant → Nettoyer les données de démonstration**. Après confirmation, les commandes et toutes les tables libres (même ajoutées manuellement) de ce navigateur sont supprimées ; les réservations actives et leurs tables restent conservées. La prolongation automatique est désactivée. Les autres navigateurs ne sont pas affectés.
